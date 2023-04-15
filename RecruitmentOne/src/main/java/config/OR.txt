@@ -1,0 +1,9 @@
+# Home Page Objects
+btn_MyAccount=.//li/a[contains(text(), 'My Account')]
+btn_LogOut=.//li/a[contains(text(), 'Logout')]
+dropdown_Img=.(//span[@class='directory-avatar'][normalize-space()='UG'])[3]
+
+# Login Page Object
+txtbx_UserName=.//*[@id='UserLogin_username']
+txtbx_Password=.//*[@id='UserLogin_password']
+btn_LogIn=.//button[contains(text(), 'SIGN IN')]
